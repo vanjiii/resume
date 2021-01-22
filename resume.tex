@@ -1,99 +1,110 @@
-% Chris Gibson's Resume
-% URL: 
+% Ivan Dimitrov's Resume
 %
-% Based on resume tex file by Kamil Wojcicki
+% Preferred Structure:
+% - Work experience: current company and title.
+% - Languages and technologies that you are proficient with.
+% - Education details: these become less relevant over time. With a few years’ experience, they can still be good indicators. After multiple jobs or decades, consider moving this lower down.
+% - Extracurricular things like patents, publications, talks, and standout open source contributions.
+% - Certifications. This one is interesting. Companies hiring for generalists don’t usually care, especially if it’s not an industry-wide recognized certification. Agencies and more “traditional” companies could give it some weight, though.
+% - Personal projects. The more experience you have, the less important these become. Standout contributions, especially to popular projects, could be an exception. Still, they rarely weigh more than your work experience.
+% - Interests: these can be a starting point for the conversation on an onsite interview, and they make your resume more personal.
+%
+%
+% Based on resume tex file by Chris Gibson
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
 
 \documentclass[margin,line]{resume}
-
 \usepackage{graphicx}
-
 \begin{document}
 
 \name{\Huge Ivan Dimitrov}
 {
-	\sc
-    \hfill 0885 452 670		  \vspace{0mm}\\\vspace{0mm}%
+    \sc
+    \hfill +359885452670		\vspace{0mm}\\\vspace{0mm}%
     \hfill ivan.v.dimitrov@pm.me        \vspace{0mm}\\\vspace{0mm}%
     \hfill github.com/vanjiii		\vspace{0mm}\\\vspace{-10mm}%
 }
 
 \begin{resume}
-
 \vspace{1mm}
 
-    %__________________________________________________________________________________________________________________
-    % Interests
-    \section{\mysidestyle \textbf{\large{A}\small{BOUT}}}
+%__________________________________________________________________________________________________________________
+% Interests
+\section{\mysidestyle\textbf{\large{A}\small{BOUT}}}
 
-    I am a backend software developer who enjoys working in a high energy environment using modern technologies. I am used to applying agile methodologies, breaking down user requirements into tasks, teaching junior developers. Some of the technologies used daily are Golang, PostgreSQl, GraphQL and RESTFul services. I am familiar with git, docker, LaTeX and NoSQL databases as well. I am not afraid of making decisions and taking responsibility. I have also experience with enterprise projects using Java and Android.
+    I am a backend software developer who enjoys working in a high
+    energy environment using modern technologies. I am used to
+    applying agile methodologies, breaking down user requirements into
+    tasks, teaching junior developers. Some of the technologies used
+    daily are GOlang, PostgreSQL, GraphQL and RESTFul services. I am
+    familiar with git, docker, LaTeX and NoSQL databases as well. I am
+    not afraid of making decisions and taking responsibility. I have
+    also experience with enterprise projects using Java and Android.
 
-\sectionline
-
-    %__________________________________________________________________________________________________________________
-    % Computer Skills
-    \section{\mysidestyle \textbf{\large{S}\small{KILLS}}}
-
-    Golang,\hspace{2mm}PostgreSQL,\hspace{2mm}GraphQL,\hspace{3mm}RESTFul services.
-
-\sectionline
+\sectionline%
 
     %__________________________________________________________________________________________________________________
     % Professional Experience
-    \section{\mysidestyle \textbf{\large{P}\small{ROFESSIONAL\\EXPERIENCE}}}
+    \section{\mysidestyle\textbf{\large{P}\small{ROFESSIONAL\\EXPERIENCE}}}
 
-    % Zoox Engineering Manager
-    \textbf{\listing StageAI}, Sofia \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Senior Software Developer} \hfill \textbf{May 2020 -- Present}\\
+    \textbf{\listing{StageAI}}, Sofia \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Senior Software Developer} \hfill \textbf{May 2020 {--} Present}\\
     \begin{list2}
+        \item Solving complex tasks mainly using GOlang and PostgreSQL.\@
         \item Breakdown tasks and requirements.
         \item Helping and teaching juniors colleagues.
 	\item Supervise the working processes applying agile methodologies.
-	\item Apply and encourage of using practices from 'Extreme Programming'. 
     \end{list2}
 
-    % Zoox Software Developer
-    \textsl{Software Developer} \hfill \textbf{Jan 2018 -- May 2020}\\
+    \textsl{Software Developer} \hfill \textbf{Jan 2018 {--} May 2020}\\
     \begin{list2}
-        \item Developed various web application using mainly with Golang, SQL and NoSQL dbs, REST and Graphql.
-	\item Deliver high quality code using TDD. 
+        \item Developed various web application using mainly with
+          GOlang, SQL and NoSQL DBs, REST and Graphql.
+	\item Deliver high quality code.\@
     \end{list2}
 
-    % Zoox Engineering Manager
-    \textbf{\listing Musala Soft}, Sofia \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software developer} \hfill \textbf{Aug 2016 -- Dec 2017}\\
+    \textbf{\listing{Musala Soft}}, Sofia \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Software developer} \hfill \textbf{Aug 2016 {--} Dec 2017}\\
     \begin{list2}
-        \item Worked as a contractor for Experian maintaining their existing project using mainly internal tools in the Java ecosystem.
+        \item Worked as a contractor for Experian maintaining their
+          existing project using mainly internal tools in the Java
+          ecosystem.
     \end{list2}
 
-    % Zoox Software Developer
-    \textsl{Junoir Software Developer} \hfill \textbf{Aug 2015 -- Aug 2016}\\
+    \textsl{Junoir Software Developer} \hfill \textbf{Aug 2015 {--} Aug 2016}\\
     \begin{list2}
         \item Developed native android applications with Java.
-        \item Maintained hybrid mobile applicatrion with Javascript and apache Cordova.
-	\item Maintained Java enterpise application using JSP, maven, OracleDB.  	
+	\item Maintained Java enterpise application using JSP, maven, OracleDB.\@
+        \item Maintained hybrid mobile application with Javascript and apache Cordova.
     \end{list2}
 
-    % CreateSpace
-	\textbf{\listing Game developer{-}intern}, Varna \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Developer} \hfill \textbf{Aug 2014 -- Sept 2014}
-    
+    \textbf{\listing{Game developer{-}intern}}, Varna \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Software Developer} \hfill \textbf{Aug 2014 {--} Sept 2014}
 
-\sectionline
+
+\sectionline%
+
+    %__________________________________________________________________________________________________________________
+    % Computer Skills
+    \section{\mysidestyle\textbf{\large{S}\small{KILLS}}}
+
+    Golang,\hspace{2mm}PostgreSQL,\hspace{2mm}GraphQL,\hspace{2mm}RESTFul services.
+
+\sectionline%
 
     %__________________________________________________________________________________________________________________
     % Education
-    \section{\mysidestyle \textbf{\large{E}\small{DUCATION}}}
+    \section{\mysidestyle\textbf{\large{E}\small{DUCATION}}}
 
-    \textbf{\listing Technical University}, Varna \vspace{2mm}\\\vspace{1mm}%
-    \textsl{M.S of Computer Science} \hfill \textbf{ Sep 2013 -- June 2015}\\
-    \textsl{B.S of Electronics} \hfill \textbf{ Sep 2009 -- June 2013}\\
+    \textbf{\listing{Technical University}}, Varna \vspace{2mm}\\\vspace{1mm}%
+    \textsl{M.S of Computer Science} \hfill \textbf{ Sep 2013 {--} June 2015}\\
+    \textsl{B.S of Electronics} \hfill \textbf{ Sep 2009 {--} June 2013}\\
 
-\sectionline
+\sectionline%
 
     % _________________________________________________________________________________________________________________
     % Certifications
-    \section{\mysidestyle \textbf{\large{C}\small{ERTIFICATIONS}}}
+    \section{\mysidestyle\textbf{\large{C}\small{ERTIFICATIONS}}}
 
     \textbf{Oracle Certified Professional}, Oracle \hfill \textbf{Sep 2017} \vspace{2mm}\\\vspace{1mm}%
     \textbf{Agile Software Developement}, The Business Institute \hfill \textbf{Apr 2017} \vspace{2mm}\\\vspace{1mm}%
