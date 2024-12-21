@@ -14,20 +14,19 @@
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
 
 \documentclass[margin,line]{resume}
-\usepackage{graphicx}
+\usepackage{helvet}
 \begin{document}
 
 \name{\Huge Ivan Dimitrov}
 {
     %\sc
-    \hfill +359885452670		\vspace{0mm}\\\vspace{0mm}%
-    \hfill ivan.v.dimitrov@pm.me        \vspace{0mm}\\\vspace{0mm}%
-    \hfill linkedin.com/in/vanjiii      \vspace{0mm}\\\vspace{0mm}%
-    \hfill github.com/vanjiii		\vspace{0mm}\\\vspace{-10mm}%
+    \hfill +359885452670				\vspace{0mm}\\\vspace{0mm}%
+    \hfill ivan.v.dimitrov@pm.me		\vspace{0mm}\\\vspace{0mm}%
+    \hfill linkedin.com/in/vanjiii		\vspace{0mm}\\\vspace{0mm}%
+    \hfill github.com/vanjiii			\vspace{0mm}\\\vspace{-10mm}%
 }
 
 \begin{resume}
-\vspace{1mm}
 
 %__________________________________________________________________________________________________________________
 % Interests
@@ -37,19 +36,6 @@
 	in designing and implementing highly available systems using micro-service
 	architecture. Skilled in Golang and PostgreSQL, with expertise in
 	synchronous and asynchronous processing of data.
-
-\sectionline%
-
-    %__________________________________________________________________________________________________________________
-    % Computer Skills
-    \section{\mysidestyle\textbf{\large{S}\small{KILLS}}}
-
-    \begin{list2}
-      \item Golang,\hspace{2mm}Ruby\@
-      \item PostgreSQL,\hspace{2mm}ElasticSearch,\hspace{2mm}CockroachDB\@
-      \item RESTful Services,\hspace{2mm}GraphQL,\hspace{2mm}gRPC,\hspace{2mm}Service-oriented architecture\@
-      \item Teamwork,\hspace{2mm}Attention to details,\hspace{2mm}Organizational skills,\hspace{2mm}Agile methodologies,\hspace{2mm}Task breakdowns\@
-    \end{list2}
 
 \sectionline%
 
@@ -64,26 +50,29 @@
 	merchants' payout settings. We also embrace a DevOps mindset to achieve our
 	goals effectively.\\
     \begin{list2}
-        \item Re-build and re-design legacy Ruby or Elixir application in Golang to reduce operational cost, improving performance;\@
-		\item Improve reliability and durability by incorporating extensive observability using tools like OpenTelemetry, Prometheus, Grafana;
-        \item Contributed to architecture design that would greatly improve design, modularity, performance and testing in event-driven systems;
-		\item Deploy applications via Github Actions on Kubernetes and AWS;
+        \item Re-build and re-design legacy Ruby or Elixir application in Golang to reduce operational cost, improving performance.\@
+		\item Improve reliability, durability and reduce downtime by
+			incorporating extensive observability using tools like
+			OpenTelemetry, Prometheus, Grafana.
+        \item Contributed to architecture design that would greatly improve design, modularity, performance and testing in event-driven systems.
+		\item Deploy applications via Github Actions on Kubernetes and AWS.
 		\item Key Technologies: Go, Ruby, PostgreSQL, Docker, Kubernetes.
     \end{list2}
 
     \textbf{\listing{SAP}}, Sofia \vspace{2mm}\\\vspace{1mm}%
     \textsl{Software Developer} \hfill \textbf{June 2021 {--} October 2021}\
     \begin{list2}
-		\item Part of the core team of gardener project https://github.com/gardener/gardener;\@
-        \item Key technologies: Go, Kubernetes, Docker
+		\item Part of the core team of gardener project https://github.com/gardener/gardener.\@
+		\item Add Kubernetes integrations; improve local setup and increase test coverage.
+        \item Key technologies: Go, Kubernetes, Docker.
     \end{list2}
 
     \textbf{\listing{StageAI}}, Sofia \vspace{2mm}\\\vspace{1mm}%
     \textsl{Senior Software Developer} \hfill \textbf{May 2020 {--} May 2021}\
     \begin{list2}
-        \item Solve complex tasks mainly using Golang and PostgreSQL;\@
-        \item Provide and help others to provide clean and efficient code;
-		\item Supervise the working processes applying agile methodologies;
+        \item Solve complex tasks mainly using Golang and PostgreSQL.\@
+        \item Provide and help others to provide clean and efficient code.
+		\item Supervise the working processes applying agile methodologies.
         \item Breakdown tasks and requirements.
 		\item Key technologies: Leadership skills, Software design, Project planning.
     \end{list2}
@@ -91,10 +80,10 @@
     \textsl{Software Developer} \hfill \textbf{Jan 2018 {--} May 2020}\
     \begin{list2}
         \item Develop various web application using mainly with
-          Golang, SQL, REST and GraphQL;
-		\item Deliver high quality code;\@
+          Golang, SQL, REST and GraphQL.
+		\item Deliver high quality code.\@
         \item Follow best practices like TDD, refactoring and code standards.\@
-		\item Key technologies: Go, PostgreSQL, GraphQL, REST
+		\item Key technologies: Go, PostgreSQL, GraphQL, REST.
     \end{list2}
 
     \textbf{\listing{Musala Soft}}, Sofia \vspace{2mm}\\\vspace{1mm}%
@@ -103,42 +92,55 @@
         \item Worked as a contractor for Experian maintaining their
           existing project using mainly internal tools in the Java
           ecosystem.
-		\item Key technologies: Java, Swing
+		\item Key technologies: Java, Swing.
     \end{list2}
 
     \textsl{Junior Software Developer} \hfill \textbf{Aug 2015 {--} Aug 2016}\
     \begin{list2}
-        \item Developed native android applications with Java;
-		\item Maintained Java Enterprise application using JSP, maven, OracleDB;\@
+        \item Developed native android applications with Java.
+		\item Maintained Java Enterprise application using JSP, maven, OracleDB.\@
         \item Maintained hybrid mobile application with Javascript and apache Cordova.
-		\item Key technologies: Java, Android
+		\item Key technologies: Java, Android.
     \end{list2}
+
+    \textbf{\listing{Game developer{-}intern}}, Varna \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Software Developer} \hfill \textbf{Summer 2014}
 
 \pagebreak
 
-    \textbf{\listing{Game developer{-}intern}}, Varna \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Developer} \hfill \textbf{Aug 2014 {--} Sept 2014}
+\sectionline%
+
+%__________________________________________________________________________________________________________________
+% Computer Skills
+\section{\mysidestyle\textbf{\large{S}\small{KILLS}}}
+
+\begin{list2}
+  \item Golang,\hspace{2mm}Ruby\@
+  \item PostgreSQL,\hspace{2mm}ElasticSearch,\hspace{2mm}CockroachDB\@
+  \item RESTful Services,\hspace{2mm}GraphQL,\hspace{2mm}gRPC,\hspace{2mm}Service-oriented architecture\@
+  \item Teamwork,\hspace{2mm}Attention to details,\hspace{2mm}Organizational skills,\hspace{2mm}Agile methodologies,\hspace{2mm}Task breakdowns\@
+\end{list2}
 
 \sectionline%
 
-    %__________________________________________________________________________________________________________________
-    % Education
-    \section{\mysidestyle\textbf{\large{E}\small{DUCATION}}}
+%__________________________________________________________________________________________________________________
+% Education
+\section{\mysidestyle\textbf{\large{E}\small{DUCATION}}}
 
-    \textbf{\listing{Technical University}}, Varna \vspace{2mm}\\\vspace{1mm}%
-    \textsl{M.S. of Computer Science} \hfill \textbf{ Sep 2013 {--} June 2015}\\
-    \textsl{B.S. of Electronics} \hfill \textbf{ Sep 2009 {--} June 2013}\\
+\textbf{\listing{Technical University}}, Varna \vspace{2mm}\\\vspace{1mm}%
+\textsl{M.S. of Computer Science} \hfill \textbf{ Sep 2013 {--} June 2015}\\
+\textsl{B.S. of Electronics} \hfill \textbf{ Sep 2009 {--} June 2013}\\
 
 \sectionline%
 
-    % _________________________________________________________________________________________________________________
-    % Certifications
-    \section{\mysidestyle\textbf{\large{C}\small{ERTIFICATIONS}}}
+% _________________________________________________________________________________________________________________
+% Certifications
+\section{\mysidestyle\textbf{\large{C}\small{ERTIFICATIONS}}}
 
-    \textbf{Oracle Certified Professional}, Oracle \hfill \textbf{Sep 2017} \vspace{2mm}\\\vspace{1mm}%
-    \textbf{Agile Software Development}, The Business Institute \hfill \textbf{Apr 2017} \vspace{2mm}\\\vspace{1mm}%
-    \textbf{Managing Team Performance}, The Business Institute \hfill \textbf{Feb 2017} \vspace{2mm}\\\vspace{1mm}%
-    \textbf{Oracle Certified Associate}, Oracle \hfill \textbf{Nov 2016} \vspace{2mm}\\\vspace{1mm}%
+\textbf{Oracle Certified Professional}, Oracle \hfill \textbf{Sep 2017} \vspace{2mm}\\\vspace{1mm}%
+\textbf{Agile Software Development}, The Business Institute \hfill \textbf{Apr 2017} \vspace{2mm}\\\vspace{1mm}%
+\textbf{Managing Team Performance}, The Business Institute \hfill \textbf{Feb 2017} \vspace{2mm}\\\vspace{1mm}%
+\textbf{Oracle Certified Associate}, Oracle \hfill \textbf{Nov 2016} \vspace{2mm}\\\vspace{1mm}%
 
 \end{resume}
 \end{document}

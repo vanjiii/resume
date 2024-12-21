@@ -6,8 +6,9 @@
 % Original document by Michael DeCorte
 %
 \usepackage{color}
-%\definecolor{ColorOne}{rgb}{0.26, 0.30, 0.37}
-\definecolor{ColorOne}{rgb}{0.75, 0.38, 0.42}
+\definecolor{ColorDarkBlue}{RGB}{46, 52, 64} % dark blue
+\definecolor{ColorOne}{rgb}{0.75, 0.38, 0.42} % red,default
+% \definecolor{ColorOne}{RGB}{17, 85, 204} % blue
 \typeout{Document Style `resume' <26 Sep 89, Dec 07>.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -447,7 +448,7 @@
 %
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
-%\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
+% \def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
 \def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.4in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -835,13 +836,13 @@
       \setlength{\leftmargin}{0in}}}{\end{list}}
 
 \newenvironment{list2}{
-  \begin{list}{$\triangleright$}{%
+  \begin{list}{$\bullet$}{%
       \setlength{\itemsep}{0in}
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.25in}}}{\end{list}}
 
-%\newcommand{\mysidestyle}{\footnotesize\sc}
+% \newcommand{\mysidestyle}{\footnotesize\sc}
 \newcommand{\mysidestyle}{\textbf\sc\color{ColorOne}}
 \newcommand{\myheadingstyle}{\sl}
 \newcommand{\mysubheadingstyle}{\sl}
@@ -849,6 +850,6 @@
 \newcommand{\listing}{\large}
 
 
-\newcommand{\sectionline}{\vspace*{-4mm}\par\hspace*{-36mm}\color{ColorOne}\hrulefill\\\color{black}\vspace*{-8mm}}
+\newcommand{\sectionline}{\vspace*{-4mm}\par\hspace*{-36mm}\color{ColorDarkBlue}\hrulefill\\\color{black}\vspace*{-8mm}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
